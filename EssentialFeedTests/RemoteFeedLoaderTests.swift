@@ -6,8 +6,6 @@
 //
 
 import Foundation
-<<<<<<< HEAD
-=======
 import XCTest
 
 class RemoteFeedLoader {
@@ -25,4 +23,3 @@ class RemoteFeedLoaderTests: XCTestCase {
         XCTAssertNil(client.requestedURL)
     }
 }
->>>>>>> b0cebec (`RemoteFeedLoader` does not access data upon creation)
