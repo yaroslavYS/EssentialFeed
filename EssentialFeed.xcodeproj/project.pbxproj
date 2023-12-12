@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B71BAB8D2B289F5A00CC7A4A /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71BAB842B289F5A00CC7A4A /* EssentialFeed.framework */; };
-		B71BAB932B289F5A00CC7A4A /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = B71BAB872B289F5A00CC7A4A /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B71BAB9D2B28A01900CC7A4A /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71BAB9C2B28A01900CC7A4A /* FeedItem.swift */; };
 		B71BAB9F2B28A02300CC7A4A /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71BAB9E2B28A02300CC7A4A /* FeedLoader.swift */; };
 		B71BABA22B28A50E00CC7A4A /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71BABA12B28A50E00CC7A4A /* RemoteFeedLoaderTests.swift */; };
@@ -26,7 +25,6 @@
 
 /* Begin PBXFileReference section */
 		B71BAB842B289F5A00CC7A4A /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B71BAB872B289F5A00CC7A4A /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		B71BAB8C2B289F5A00CC7A4A /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71BAB9C2B28A01900CC7A4A /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		B71BAB9E2B28A02300CC7A4A /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 		B71BAB862B289F5A00CC7A4A /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
-				B71BAB872B289F5A00CC7A4A /* EssentialFeed.h */,
 				B71BABA02B28A02700CC7A4A /* Feed Feature */,
 			);
 			path = EssentialFeed;
@@ -103,7 +100,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B71BAB932B289F5A00CC7A4A /* EssentialFeed.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
