@@ -35,8 +35,9 @@ public final class RemoteFeedLoader {
                     completion(.success(items))
                 }
                 catch {
-                    completion(.failure(.invalidData))
+                    return completion(.failure(.invalidData))
                 }
+                //completion(self.map(data, from: response))
             case .failure:
                 completion(.failure(.connectivity))
             }
