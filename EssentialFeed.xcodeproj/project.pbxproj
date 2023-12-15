@@ -77,8 +77,8 @@
 		B71BAB862B289F5A00CC7A4A /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
-				B71BABA32B28BDC200CC7A4A /* Feed API */,
 				B71BABA02B28A02700CC7A4A /* Feed Feature */,
+				B71BABA32B28BDC200CC7A4A /* Feed API */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
