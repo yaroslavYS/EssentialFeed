@@ -30,17 +30,9 @@ public final class LocalFeedLoader {
     
     private func cache(_ items: [FeedItem], with completion: @escaping (Error?) -> Void) {
         store.insert(items, timestamp: currentDate()) { [weak self] error in
-            guard let self = self else { return }
+            guard let _ = self else { return }
             
             completion(error)
         }
     }
-}
-
-public protocol FeedStore {
-    typealias DeletionCompletion = (Error?) -> Void
-    typealias InsertionCompletion = (Error?) -> Void
-    
-    func deleteCachedFeed(completion: @escaping DeletionCompletion)
-    func insert(_ items: [FeedItem], timestamp: Date, completion: @escaping InsertionCompletion)
 }
