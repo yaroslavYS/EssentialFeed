@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B717A0402B7FDB1B00D86940 /* CodableFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B717A03F2B7FDB1B00D86940 /* CodableFeedStore.swift */; };
 		B71BAB8D2B289F5A00CC7A4A /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71BAB842B289F5A00CC7A4A /* EssentialFeed.framework */; };
 		B71BAB9D2B28A01900CC7A4A /* FeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71BAB9C2B28A01900CC7A4A /* FeedImage.swift */; };
 		B71BAB9F2B28A02300CC7A4A /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71BAB9E2B28A02300CC7A4A /* FeedLoader.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B717A03F2B7FDB1B00D86940 /* CodableFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStore.swift; sourceTree = "<group>"; };
 		B71BAB842B289F5A00CC7A4A /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71BAB8C2B289F5A00CC7A4A /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71BAB9C2B28A01900CC7A4A /* FeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImage.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				B77E1D6E2B38838F0030E8AF /* FeedStore.swift */,
 				B77E1D722B39957D0030E8AF /* LocalFeedImage.swift */,
 				B72E26F82B71456E00D17A6C /* FeedCachePolicy.swift */,
+				B717A03F2B7FDB1B00D86940 /* CodableFeedStore.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -375,6 +378,7 @@
 				B77E1D732B39957D0030E8AF /* LocalFeedImage.swift in Sources */,
 				B77E1D6F2B38838F0030E8AF /* FeedStore.swift in Sources */,
 				B77E1D6D2B3883200030E8AF /* LocalFeedLoader.swift in Sources */,
+				B717A0402B7FDB1B00D86940 /* CodableFeedStore.swift in Sources */,
 				B78C07962B2B5E1A0097ABEE /* HTTPClient.swift in Sources */,
 				B71BAB9D2B28A01900CC7A4A /* FeedImage.swift in Sources */,
 				B78C07AA2B2EE4F80097ABEE /* URLSessionHTTPClient.swift in Sources */,
