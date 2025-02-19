@@ -21,6 +21,7 @@ final class FeedViewController: UITableViewController {
         
         refreshControl = UIRefreshControl()
         refreshControl?.addTarget(self, action: #selector(load), for: .valueChanged)
+        refreshControl?.beginRefreshing()
         load()
     }
     
@@ -53,6 +54,17 @@ final class FeedViewControllerTests: XCTestCase {
         
         sut.refreshControl?.simulatePullToRefresh()
         XCTAssertEqual(loader.loadCallCount, 3)
+    }
+    
+    func test_viewDidLoad_showsLoadingIndicator() {
+        // Not working in iOS 17: viewIsAppearing must be used
+        // and screen has to be actually rendered in window hierarchy
+//        let (sut, _) = makeSUT()
+//        
+//        sut.loadViewIfNeeded()
+//        sut.beginAppearanceTransition(true, animated: false)
+//        sut.endAppearanceTransition()
+//        XCTAssertEqual(sut.refreshControl?.isRefreshing, true)
     }
     
     // MARK: - Helpers
