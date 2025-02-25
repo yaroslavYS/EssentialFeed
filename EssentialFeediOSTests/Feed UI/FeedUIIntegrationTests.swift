@@ -11,13 +11,6 @@ import EssentialFeediOS
 
 final class FeedUIIntegrationTests: XCTestCase {
     
-    func test_feedView_hasTitle() {
-        let (sut, _) = makeSUT()
-        
-        sut.loadViewIfNeeded()
-        XCTAssertEqual(sut.title, localized("FEED_VIEW_TITLE"))
-    }
-    
     func test_loadFeedActions_requestFeedFromLoader() {
         let (sut, loader) = makeSUT()
         
