@@ -4,8 +4,7 @@
 //
 //  Created by Yaroslav Skorokhid on 22.02.2025.
 //
-import EssentialFeed
 
-struct FeedViewModel {
-    let feed: [FeedImage]
+public struct FeedViewModel {
+    public let feed: [FeedImage]
 }
